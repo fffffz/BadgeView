@@ -7,9 +7,6 @@ import android.view.View;
 
 import com.fffz.badgeview.BadgeView;
 
-/**
- * Created by sigma on 2018/4/8.
- */
 public class SampleActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
