@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_sample"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SampleActivity" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_attach"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="attach" />
+
+            <Button
+                android:id="@+id/btn_detach"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="detach" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:background="#aaaaaa"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/tv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/black"
+                    android:text="Hello BadgeView"
+                    android:textColor="@android:color/white"
+                    android:textSize="16dp" />
+            </LinearLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#aaaaaa">
+
+                <TextView
+                    android:id="@+id/tv2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/black"
+                    android:text="Hello BadgeView"
+                    android:textColor="@android:color/white"
+                    android:textSize="16dp" />
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/cb_keep_target_center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="KeepTargetCenter" />
+
+
+            <CheckBox
+                android:id="@+id/cb_circle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Circle" />
+
+            <CheckBox
+                android:id="@+id/cb_semicircle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Semicircle" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/et"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Text"
+            android:text="999" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="TextSize" />
+
+            <SeekBar
+                android:id="@+id/sb_text_size"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:max="24"
+                android:progress="12" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="OffsetX" />
+
+            <SeekBar
+                android:id="@+id/sb_offset_x"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:max="10" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="OffsetY" />
+
+            <SeekBar
+                android:id="@+id/sb_offset_y"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:max="10" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="CornerRadius" />
+
+            <SeekBar
+                android:id="@+id/sb_corner_radius"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:max="100" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="HPadding" />
+
+            <SeekBar
+                android:id="@+id/sb_h_padding"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:max="20" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="VPadding" />
+
+            <SeekBar
+                android:id="@+id/sb_v_padding"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:max="20" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

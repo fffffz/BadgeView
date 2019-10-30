@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:BadgeView="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/black"
+                android:text="Hello BadgeView"
+                android:textColor="@android:color/white"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/black"
+                android:text="Hello BadgeView"
+                android:textColor="@android:color/white"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/black"
+                android:text="Hello BadgeView"
+                android:textColor="@android:color/white"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/black"
+                android:text="Hello BadgeView"
+                android:textColor="@android:color/white"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/tv5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/black"
+                android:text="Hello BadgeView"
+                android:textColor="@android:color/white"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/tv6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/black"
+                android:text="Hello BadgeView"
+                android:textColor="@android:color/white"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/tv7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/black"
+                android:text="Hello BadgeView"
+                android:textColor="@android:color/white"
+                android:textSize="16dp" />
+
+            <com.fffz.badgeview.BadgeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/black"
+                    android:text="Hello BadgeView"
+                    android:textColor="@android:color/white"
+                    android:textSize="16dp" />
+
+                <com.fffz.badgeview.BadgeView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/android"
+                    BadgeView:offsetX="5dp"
+                    BadgeView:offsetY="5dp" />
+            </com.fffz.badgeview.BadgeLayout>
+
+            <com.fffz.badgeview.BadgeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/black"
+                    android:text="Hello BadgeView"
+                    android:textColor="@android:color/white"
+                    android:textSize="16dp" />
+
+                <com.fffz.badgeview.BadgeView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/android"
+                    BadgeView:circle="true"
+                    BadgeView:offsetX="8dp"
+                    BadgeView:offsetY="8dp"
+                    BadgeView:text="99"
+                    BadgeView:textColor="#ff0000" />
+            </com.fffz.badgeview.BadgeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <com.fffz.badgeview.BadgeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#aaaaaa">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="首页"
+                android:textColor="@android:color/white"
+                android:textSize="16dp" />
+
+            <com.fffz.badgeview.BadgeView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ff0000"
+                android:padding="1dp"
+                BadgeView:circle="true"
+                BadgeView:offsetX="4dp"
+                BadgeView:offsetY="8dp"
+                BadgeView:text="1"
+                BadgeView:textColor="#ffffff"
+                BadgeView:textSize="12dp" />
+        </com.fffz.badgeview.BadgeLayout>
+
+        <com.fffz.badgeview.BadgeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="1dp"
+            android:layout_weight="1"
+            android:background="#aaaaaa">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="发现"
+                android:textColor="@android:color/white"
+                android:textSize="16dp" />
+
+            <com.fffz.badgeview.BadgeView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ff0000"
+                android:padding="1dp"
+                BadgeView:circle="true"
+                BadgeView:offsetX="4dp"
+                BadgeView:offsetY="8dp"
+                BadgeView:text="2"
+                BadgeView:textColor="#ffffff"
+                BadgeView:textSize="12dp" />
+        </com.fffz.badgeview.BadgeLayout>
+
+        <com.fffz.badgeview.BadgeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="1dp"
+            android:layout_weight="1"
+            android:background="#aaaaaa">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我的"
+                android:textColor="@android:color/white"
+                android:textSize="16dp" />
+
+            <com.fffz.badgeview.BadgeView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#ff0000"
+                android:paddingBottom="1dp"
+                android:paddingLeft="2dp"
+                android:paddingRight="2dp"
+                android:paddingTop="1dp"
+                BadgeView:offsetX="4dp"
+                BadgeView:offsetY="8dp"
+                BadgeView:semicircle="true"
+                BadgeView:text="333"
+                BadgeView:textColor="#ffffff"
+                BadgeView:textSize="12dp" />
+        </com.fffz.badgeview.BadgeLayout>
+    </LinearLayout>
+</LinearLayout>
